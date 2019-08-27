@@ -10,7 +10,8 @@ class Shoe
   
   def brand=(brand)
     @brand = brand
-    if BRANDS.inlcude? 
+    if BRANDS.inlcude?(brand)
+      
   end
 
   def cobble
